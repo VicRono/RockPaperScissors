@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissorsLizardSpock._1
 {
-    class HumanPlayer : GamePlayer // (IS A)
+    class HumanPlayer : Player // (IS A)
     {
         public HumanPlayer()
         {

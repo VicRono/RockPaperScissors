@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissorsLizardSpock._1
 {
-    class ComputerPlayer : GamePlayer
+    class ComputerPlayer : Player
     {
         Random random;
 

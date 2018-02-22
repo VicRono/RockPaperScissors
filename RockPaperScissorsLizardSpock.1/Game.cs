@@ -9,8 +9,8 @@ namespace RockPaperScissorsLizardSpock._1
     class Game
     {
         // member variables (HAS A)
-        GamePlayer playerOne;
-        GamePlayer playerTwo;               
+        Player playerOne;
+        Player playerTwo;               
 
         // constructor
         public Game()
@@ -27,7 +27,7 @@ namespace RockPaperScissorsLizardSpock._1
             CompareGestures();
         }
 
-        public void DeterminePlayerTwo()
+        private void DeterminePlayerTwo()
         {
             Console.WriteLine("Would you like to play Human VS Human? 'Y' for yes or 'N' for no");
             char UserInput = char.Parse(Console.ReadLine());
@@ -47,7 +47,7 @@ namespace RockPaperScissorsLizardSpock._1
             }
         }
 
-        public void CompareGestures()
+        private void CompareGestures()
         {
             switch (playerTwo.playerGesture)
             {

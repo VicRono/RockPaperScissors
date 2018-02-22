@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissorsLizardSpock._1
 {
-    class GamePlayer
+    class Player
     {
         public string playerGesture;
         public int playerScore = 0;
         public List<string> gestureOptions;
 
-        public GamePlayer()
+        public Player()
         {
             gestureOptions = new List<string>() { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
         }
